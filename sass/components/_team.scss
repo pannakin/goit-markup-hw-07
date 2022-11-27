@@ -1,0 +1,25 @@
+.team {
+  background-color: #f5f4fa;
+
+  &__container {
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
+}
+
+.title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: calc(42 / 36);
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.team__title {
+  margin-bottom: 50px;
+}
+
+.team__list {
+  display: flex;
+  gap: 30px;
+}
