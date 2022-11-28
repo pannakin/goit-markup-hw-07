@@ -1,13 +1,12 @@
 .project {
-    background: #ffffff;
-    border: 1px solid #eeeeee;
-    border-top: 0px;
-    flex-basis: calc((100% - 30px * 2) / 4);
-    padding-top: 20px;
-    padding-bottom: 20px;
-}
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+  border-top: 0px;
+  flex-basis: calc((100% - 30px * 2) / 4);
+  padding-top: 20px;
+  padding-bottom: 20px;
 
-&__name {
+  &__name {
     font-size: 18px;
     line-height: calc(36 / 18);
     letter-spacing: 0.06em;
@@ -15,13 +14,14 @@
     margin-left: 24px;
     margin-right: 24px;
     color: #212121;
-}
+  }
 
-&__text {
+  &__text {
     font-size: 16px;
     line-height: calc(30 / 16);
     letter-spacing: 0.03em;
     color: #757575;
     margin-left: 24px;
     margin-right: 24px;
+  }
 }
